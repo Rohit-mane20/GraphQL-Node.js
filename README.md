@@ -1,32 +1,10 @@
-Based on the dependencies you've listed, here's how we can update your README with relevant information and remove unnecessary packages for your **GraphQL with Node.js** learning project.
 
-### Updated Dependencies Breakdown:
+
+### Dependencies Breakdown:
 - **Apollo Client** and **React-related libraries** (`react`, `react-apollo`, `react-dom`, etc.) are not typically required for a backend-focused GraphQL project.
 - **Webpack**, **babel-core**, and other frontend-related packages are unnecessary if you're just learning the GraphQL API with Node.js.
 - **Express-GraphQL** is a backend GraphQL implementation and is an alternative to **Apollo Server**, but if you're learning GraphQL with Apollo, you should use **Apollo Server** instead.
 - **Passport** and **passport-local** are used for authentication, but unless you're working on user authentication, these can be removed.
-
-Here's how the updated `dependencies` and your README could look:
-
----
-
-### Updated `package.json` Dependencies:
-```json
-{
-  "dependencies": {
-    "apollo-server-express": "^3.10.0",  // Apollo Server for handling GraphQL
-    "express": "^4.18.2",  // Web framework for Node.js
-    "graphql": "^15.7.0",  // Core GraphQL library
-    "mongoose": "^7.3.1",  // MongoDB object modeling (optional, for database integration)
-    "dotenv": "^16.0.0"  // To manage environment variables
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.22"  // To automatically restart the server in development
-  }
-}
-```
-
-### Updated README for Your Project:
 
 ---
 
