@@ -8,7 +8,7 @@
     "url": "https://github.com/Rohit-mane20"
   },
   "scripts": {
-    "dev": "nodemon index.js --ignore client"
+    "start" : "nodemon index.js --ignore client" 
   },
   "author": "Rohit Mane",
   "license": "ISC",
